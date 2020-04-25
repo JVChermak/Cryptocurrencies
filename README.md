@@ -21,5 +21,5 @@ The data was cleaned, scaled with StandardScaler and reduced to three principal 
 - The table shows available cryptocurrencies; table is sortable and selectable.
 ![Preview of table](images/table.png)
 
-The point in the top right corner of the scatterplot represents Bittorrent as the solitary cryptocurrency in class 1. The scatterplot shows a strong positive correlation of total coins mined to total coin supply.
+The point in the top right corner of the scatterplot represents Bittorrent as the solitary cryptocurrency in class 1. The scatterplot shows a positive correlation of total coins mined to total coin supply.
 ![Cryptocurrencies by class](images/Fig1.png)
