@@ -15,6 +15,11 @@ The senior manager for the Advisory Services Team at Accountability Accounting i
 ## Summary of Results
 The data was cleaned, scaled with StandardScaler and reduced to three principal components using PCA.
 - The elbow curve showed a prominent bend at k = 4, so the K-means algorithm was run with 4 clusters.
+![Elbow curve with bend at k equals four](images/Fig2.png)
 - Most cryptocurrencies fit into two of the four clusters.
 - Bittorrent had such large numbers, that it is in its own cluster.
 - The table shows available cryptocurrencies; table is sortable and selectable.
+![Preview of table](images/table.png)
+
+The point in the top right corner of the scatterplot represents Bittorrent as the solitary cryptocurrency in class 1. The scatterplot shows a strong positive correlation of total coins mined to total coin supply.
+![Cryptocurrencies by class](images/Fig1.png)
